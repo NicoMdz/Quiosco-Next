@@ -24,7 +24,7 @@ export default async function SearchPage({searchParams} : {searchParams: {search
 
     return (
 <>
-  <Heading>Resultados de búsqueda: "{searchParams.search}"</Heading>
+  <Heading>Resultados de búsqueda: &quot;{searchParams.search}&quot;</Heading>
 
   <div className="flex flex-col gap-5 lg:flex-row lg:justify-end">
         <ProductSearchForm />
